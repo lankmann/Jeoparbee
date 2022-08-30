@@ -7,17 +7,16 @@
     <title>replit</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="script.js"></script>
-        <!-- Triggerbee -->
+    <!-- Triggerbee -->
     <script type="text/javascript">
     var mtr_custom = mtr_custom || {};
     var mtr_site_id = 115019;
     (function () {
-         var s = document.createElement('script'); s.async = true; s.src = '//dev-tracker.triggerbee.com/js?site_id=' + mtr_site_id;
+         var s = document.createElement('script'); s.async = true; s.src = '//t.myvisitors.se/js?site_id=' + mtr_site_id;
          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
-         var sc = document.createElement('script'); sc.async = true; sc.src = 'http://localhost:1991/client-script/' + mtr_site_id;
+         var sc = document.createElement('script'); sc.async = true; sc.src = '//t.myvisitors.se/js/' + mtr_site_id + (window.location.href.indexOf('tb-nocache') > -1 ? '?v=' + Math.floor(Math.random()*999) : '');
          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(sc);
-    })();
-    </script>
+    })();</script>
     <!-- End Triggerbee -->
 </head>
 
